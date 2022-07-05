@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/api/users/currentuser', (req, res) => {
   if (!req.session?.jwt) {
-    res.send({ currentUser: null });
+    return res.send({ currentUser: null });
   }
 
   const jwtToken = req.session.jwt;
