@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "kubernetes://schema/v1%40service": "file:///c%3A/Users/Khali/Documents/ticketing/infra/k8s/auth-depl.yaml"
+  }
+}
